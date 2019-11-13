@@ -4,6 +4,9 @@
 #include "pch.h"
 #include <iostream>
 #include "Operator.h"
+
+//打开命名空间
+using namespace std;
 int main()
 {
 	Operator op;
