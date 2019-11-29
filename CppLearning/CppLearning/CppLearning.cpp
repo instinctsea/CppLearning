@@ -6,6 +6,7 @@
 #include "Operator.h"
 #include "../sdk/People.h"
 #include "Stu.h"
+#include "TestC.h"
 #pragma comment(lib,"PeopleLib.lib")
 //打开命名空间
 using namespace std;
@@ -20,6 +21,8 @@ int main()
 	char str[10];
 	People people;
 	Stu stu;
+	int ccc = CDo();
+	cout << "extern c:" << ccc << "\n";
 	std::cout <<"dll people " << people.Do() << "\n";
 	std::cout << "lib people " << stu.SSS() << "\n";
 	std::cout << c <<"\n";

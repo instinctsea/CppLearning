@@ -24,12 +24,24 @@
     <ClInclude Include="Stu.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="TestC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Stu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="clib.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
