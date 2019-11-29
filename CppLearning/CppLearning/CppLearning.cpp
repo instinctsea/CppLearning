@@ -4,7 +4,9 @@
 #include "pch.h"
 #include <iostream>
 #include "Operator.h"
-
+#include "../sdk/People.h"
+#include "Stu.h"
+#pragma comment(lib,"PeopleLib.lib")
 //打开命名空间
 using namespace std;
 int main()
@@ -16,6 +18,10 @@ int main()
 	int a = 2, b = 4;
 	int d = op.PlusPoint(&a, &b);
 	char str[10];
+	People people;
+	Stu stu;
+	std::cout <<"dll people " << people.Do() << "\n";
+	std::cout << "lib people " << stu.SSS() << "\n";
 	std::cout << c <<"\n";
 	std::cout << d << "\n";
     std::cout << "Hello World!\n"; 
